@@ -1,14 +1,36 @@
-# nailong-memes 官方图库说明
+# 🐲 nailong-memes
 
-`nailong-memes` 是 [astrbot_plugin_nailong](https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong) 的官方奶龙表情包图库仓库，用于集中收集、整理和分发奶龙表情包资源。
+<p align="center">
+  <img src="https://count.getloli.com/@nailong-memes?name=nailong-memes&theme=random&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Moe Counter">
+</p>
 
-插件用户可以通过「来只奶龙」插件页面直接从本仓库下载图库，也可以手动下载本仓库中的图片资源后放入插件数据目录。
+
+<p align="center" style="margin-top: 8px; font-size: 18px;">
+  ✅ <a href="https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong" target="_blank">astrbot_plugin_nailong</a> 默认抽象奶龙表情包图库 ✅
+</p>
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Gallery-Official-blue" alt="Official Gallery">
+  <img src="https://img.shields.io/badge/Type-Memes-yellow" alt="Meme Gallery">
+  <a href="https://github.com/GGGeeeooorrrgggeee/nailong-memes"><img src="https://img.shields.io/github/stars/GGGeeeooorrrgggeee/nailong-memes" alt="Stars"></a>
+  <a href="https://github.com/GGGeeeooorrrgggeee/nailong-memes/commits/main"><img src="https://img.shields.io/github/last-commit/GGGeeeooorrrgggeee/nailong-memes" alt="Last Commit"></a>
+</p>
+
+
+<p align="center">
+  <strong>Language / 语言</strong><br>
+  <a href="README.md"><img src="https://img.shields.io/badge/中文-当前-blue" alt="中文"></a>
+</p>
+
+
+---
 
 ## 一、仓库定位
 
 本仓库是奶龙表情包资源仓库，不包含 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 插件代码。
 
-它在「来只奶龙」插件中承担官方图库的作用： 
+它在 `astrbot_plugin_nailong` 中承担默认图库的作用：
 
 - 为 `astrbot_plugin_nailong` 提供默认下载图库
 - 统一维护奶龙 GIF 动态表情包和静态表情包
@@ -18,9 +40,9 @@
 ## 二、对应插件
 
 - 作者：[George](https://github.com/GGGeeeooorrrgggeee)
-- 插件名称：来只奶龙
-- 插件标识：`astrbot_plugin_nailong`
+- 对应插件：`astrbot_plugin_nailong`
 - 插件仓库：<https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong>
+- 默认图库：<https://github.com/GGGeeeooorrrgggeee/nailong-memes>
 
 ## 三、仓库目录结构
 
@@ -54,7 +76,7 @@ nailong-memes/
 
 ## 五、在插件中下载图库
 
-在 AstrBot 的「来只奶龙」插件页面中，用户可以通过「下载图库」功能获取本仓库中的奶龙表情包。
+在 `astrbot_plugin_nailong` 的插件页面中，用户可以通过「下载图库」功能获取本仓库中的奶龙表情包。
 
 插件默认图库地址为：
 
@@ -64,10 +86,10 @@ https://github.com/GGGeeeooorrrgggeee/nailong-memes
 
 下载模式说明：
 
-| 模式 | 说明 |
-| :--- | :--- |
-| 覆盖已存在 | 以官方图库内容重新导入本地图库 |
-| 追加已存在 | 保留本地已有表情包，并补充官方图库中的新内容 |
+| 模式       | 说明                                         |
+| :--------- | :------------------------------------------- |
+| 覆盖已存在 | 以默认图库内容重新导入本地图库               |
+| 追加已存在 | 保留本地已有表情包，并补充默认图库中的新内容 |
 
 插件页面同时提供 GitHub 加速地址选项，用于改善部分网络环境下的下载速度。
 
@@ -104,12 +126,12 @@ plugin_data/astrbot_plugin_nailong/
 - `images/` 目录收录 PNG、JPG、WEBP 等静态奶龙表情包。
 - 图库内容以抽象奶龙表情包为主。
 - 本仓库只收集抽象奶龙，不收集猎奇向奶龙和可爱向奶龙。
-- 仓库中的图片会作为插件官方图库资源提供给用户下载。
+- 仓库中的图片会作为插件默认图库资源提供给用户下载。
 - 插件导入图库时会根据目录和文件后缀自动区分动态表情包与静态表情包。
 
 ## 八、与插件功能的关系
 
-本图库被下载到本地后，会成为「来只奶龙」插件的本地表情包来源。插件可以使用这些表情包完成以下功能：
+本图库被下载到本地后，会成为 `astrbot_plugin_nailong` 的本地表情包来源。插件可以使用这些表情包完成以下功能：
 
 - 使用 `来只奶龙` 或 `奶龙` 随机发送一张奶龙表情包
 - 使用 `查询奶龙数量` 查看当前图库数量
@@ -123,11 +145,12 @@ plugin_data/astrbot_plugin_nailong/
 - 本仓库是图库资源仓库，不是插件安装包。
 - 本仓库的收录范围为抽象奶龙表情包，不包含猎奇向或可爱向奶龙表情包。
 - 插件提示「暂无奶龙表情包」时，通常表示本地图库尚未下载或尚未添加表情包。
-- 覆盖下载会以官方图库为准重新导入资源；追加下载会保留本地已有表情包并补充新内容。
+- 覆盖下载会以默认图库为准重新导入资源；追加下载会保留本地已有表情包并补充新内容。
 - 同一张表情包同时存在静态图和 GIF 两个版本时，插件会将它们视为不同文件。
 - 表情包资源仅用于交流、学习和插件图库分发。涉及侵权或不宜收录的内容，可联系仓库维护者处理。
 
 ## 十、相关链接
 
 - AstrBot：<https://github.com/AstrBotDevs/AstrBot>
-- 来只奶龙插件：<https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong>
+- astrbot_plugin_nailong 插件：<https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong>
+- 奶龙默认图库：<https://github.com/GGGeeeooorrrgggeee/nailong-memes>
