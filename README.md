@@ -132,4 +132,3 @@ plugin_data/astrbot_plugin_nailong/
 
 - AstrBot：<https://github.com/AstrBotDevs/AstrBot>
 - 来只奶龙插件：<https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong>
-- 奶龙官方图库：<https://github.com/GGGeeeooorrrgggeee/nailong-memes>
