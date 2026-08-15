@@ -21,7 +21,6 @@
 - 插件名称：来只奶龙
 - 插件标识：`astrbot_plugin_nailong`
 - 插件仓库：<https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong>
-- 官方图库：<https://github.com/GGGeeeooorrrgggeee/nailong-memes>
 
 ## 三、仓库目录结构
 
