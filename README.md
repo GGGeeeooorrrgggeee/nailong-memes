@@ -93,24 +93,10 @@ nailong-memes/
 
 1. 在 GitHub 页面点击 `Code`。
 2. 选择 `Download ZIP` 下载本仓库。
-3. 解压后，将 `gif/` 和 `images/` 中的表情包复制到 AstrBot 的插件数据目录。
-
-插件本地图库目录通常为：
-
-```text
-plugin_data/astrbot_plugin_nailong/
-```
-
-常见结构如下：
-
-```text
-plugin_data/astrbot_plugin_nailong/
-├── gif/
-├── images/
-└── _hash_index.json
-```
-
-其中 `_hash_index.json` 由插件自动维护，用于记录表情包哈希信息，帮助插件处理去重、删除和重命名等操作。
+3. 解压下载后的压缩包。
+4. 打开 `astrbot_plugin_nailong` 的插件页面。
+5. 点击「选择文件」，从解压后的 `gif/` 或 `images/` 目录中选择需要导入的表情包。
+6. 点击「添加表情包」完成导入。
 
 ## 七、图库内容说明
 
@@ -122,29 +108,3 @@ plugin_data/astrbot_plugin_nailong/
 - 本仓库只收集抽象奶龙，不收集猎奇向奶龙和可爱向奶龙。
 - 仓库中的图片会作为插件默认图库资源提供给用户下载。
 - 插件导入图库时会根据目录和文件后缀自动区分动态表情包与静态表情包。
-
-## 八、与插件功能的关系
-
-本图库被下载到本地后，会成为 `astrbot_plugin_nailong` 的本地表情包来源。插件可以使用这些表情包完成以下功能：
-
-- 使用 `来只奶龙` 或 `奶龙` 随机发送一张奶龙表情包
-- 使用 `查询奶龙数量` 查看当前图库数量
-- 在普通聊天中按配置概率自动发送奶龙表情包
-- 在插件页面中查看、删除、重命名和批量导出表情包
-- 开启「只发送 GIF 动态表情包」后，仅从 GIF 动态表情包中随机发送
-- 开启「静态图以 GIF 格式发送」后，将静态图临时转换为 GIF 后发送
-
-## 九、使用说明
-
-- 本仓库是图库资源仓库，不是插件安装包。
-- 本仓库的收录范围为抽象奶龙表情包，不包含猎奇向或可爱向奶龙表情包。
-- 插件提示「暂无奶龙表情包」时，通常表示本地图库尚未下载或尚未添加表情包。
-- 覆盖下载会以默认图库为准重新导入资源；追加下载会保留本地已有表情包并补充新内容。
-- 同一张表情包同时存在静态图和 GIF 两个版本时，插件会将它们视为不同文件。
-- 表情包资源仅用于交流、学习和插件图库分发。涉及侵权或不宜收录的内容，可联系仓库维护者处理。
-
-## 十、相关链接
-
-- AstrBot：<https://github.com/AstrBotDevs/AstrBot>
-- astrbot_plugin_nailong 插件：<https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong>
-- 奶龙默认图库：<https://github.com/GGGeeeooorrrgggeee/nailong-memes>
