@@ -37,7 +37,7 @@
 - 方便用户快速补全本地奶龙图库
 - 方便插件页面进行图库下载、分类导入和本地管理
 
-## 二、对应插件
+## 二、对应 AstrBot 插件
 
 - 作者：[George](https://github.com/GGGeeeooorrrgggeee)
 - 对应插件名：`astrbot_plugin_nailong`
