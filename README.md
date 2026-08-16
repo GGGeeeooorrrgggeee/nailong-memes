@@ -6,7 +6,7 @@
 
 
 <p align="center" style="margin-top: 8px; font-size: 18px;">
-  ✅ <a href="https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong" target="_blank">astrbot_plugin_nailong</a> 默认抽象奶龙表情包图库 ✅
+  ✨ <a href="https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong" target="_blank">astrbot_plugin_nailong</a> 默认抽象奶龙表情包图库 ✨
 </p>
 
 
@@ -40,9 +40,8 @@
 ## 二、对应插件
 
 - 作者：[George](https://github.com/GGGeeeooorrrgggeee)
-- 对应插件：`astrbot_plugin_nailong`
+- 对应插件名：`astrbot_plugin_nailong`
 - 插件仓库：<https://github.com/GGGeeeooorrrgggeee/astrbot_plugin_nailong>
-- 默认图库：<https://github.com/GGGeeeooorrrgggeee/nailong-memes>
 
 ## 三、仓库目录结构
 
@@ -53,6 +52,7 @@ nailong-memes/
 ├── gif/       # GIF 动态奶龙表情包
 ├── images/    # PNG/JPG/WEBP 等静态奶龙表情包
 └── README.md  # 本说明文档
+└── LICENSE    # 开源协议
 ```
 
 说明：
@@ -63,7 +63,7 @@ nailong-memes/
 
 ## 四、支持格式
 
-插件当前支持常见图片格式，包括：
+对应插件当前支持常见图片格式，包括：
 
 ```text
 .jpg .jpeg .png .gif .bmp .webp .tiff .ico
@@ -76,20 +76,14 @@ nailong-memes/
 
 ## 五、在插件中下载图库
 
-在 `astrbot_plugin_nailong` 的插件页面中，用户可以通过「下载图库」功能获取本仓库中的奶龙表情包。
-
-插件默认图库地址为：
-
-```text
-https://github.com/GGGeeeooorrrgggeee/nailong-memes
-```
+在 `astrbot_plugin_nailong` 的插件页面中，用户可以通过「下载图库」功能使用默认仓库获取本仓库中的奶龙表情包。
 
 下载模式说明：
 
 | 模式       | 说明                                         |
 | :--------- | :------------------------------------------- |
-| 覆盖已存在 | 以默认图库内容重新导入本地图库               |
-| 追加已存在 | 保留本地已有表情包，并补充默认图库中的新内容 |
+| 覆盖已存在 | 清空本地图库并以目标图库内容重新导入本地图库               |
+| 追加已存在 | 保留本地已有表情包，并补充目标图库中的新内容 |
 
 插件页面同时提供 GitHub 加速地址选项，用于改善部分网络环境下的下载速度。
 
