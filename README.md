@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Gallery-Official-blue" alt="Official Gallery">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/Type-Memes-yellow" alt="Meme Gallery">
   <a href="https://github.com/GGGeeeooorrrgggeee/nailong-memes"><img src="https://img.shields.io/github/stars/GGGeeeooorrrgggeee/nailong-memes" alt="Stars"></a>
   <a href="https://github.com/GGGeeeooorrrgggeee/nailong-memes/commits/main"><img src="https://img.shields.io/github/last-commit/GGGeeeooorrrgggeee/nailong-memes" alt="Last Commit"></a>
