@@ -51,7 +51,7 @@
 nailong-memes/
 ├── gif/       # GIF 动态奶龙表情包
 ├── images/    # PNG/JPG/WEBP 等静态奶龙表情包
-└── README.md  # 本说明文档
+├── README.md  # 本说明文档
 └── LICENSE    # 开源协议
 ```
 
